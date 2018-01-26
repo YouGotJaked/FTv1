@@ -5,7 +5,9 @@
  * Created on January 17, 2018, 9:58 PM
  *
  * Description: This file waits for a connection request from the client, receives
- * the name of the file, opens the file
+ * the name of the file, opens the file, and waits for data. Once the client sends
+ * the data, the server receives the data in chunks of 5 bytes and writes to the
+ * output file.
  *
  * Usage: To compile, open Terminal and type the following: "gcc -o server server.c"
  * To run, type: "./server <port number>"
