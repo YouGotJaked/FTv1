@@ -1,4 +1,4 @@
-# File Transfer Version 1 - Jake Day
+# File Transfer Version 1
 
 This program consists of a client and server that communicate to transfer one file from the client to the server using TCP.
 
