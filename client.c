@@ -26,8 +26,8 @@
 #define LENGTH 10
 
 int main(int argc, char** argv) {
-    int sockfd, n;
-    struct sockaddr_in serv_addr, cli_addr;
+    int sockfd;
+    struct sockaddr_in serv_addr;
     size_t bytes;
     char buff[LENGTH];
     
